@@ -1,0 +1,5 @@
+f=open("hello.txt","r")
+fr=f.read()
+ar=fr.split(" ")
+print(ar)
+f.close()
